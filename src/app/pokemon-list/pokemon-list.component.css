@@ -1,0 +1,54 @@
+input {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Contenedor principal */
+div {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Estilos del Pokemoncito */
+h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+p {
+    color: red;
+    font-size: 18px;
+}

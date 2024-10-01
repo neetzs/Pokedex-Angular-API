@@ -1,0 +1,12 @@
+/* Centrado y mejora del Titulo */
+h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 20px;
+    color: #333;
+}
+
+app-pokemon-list {
+    display: block;
+    margin-top: 20px;
+}

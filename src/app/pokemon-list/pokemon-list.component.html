@@ -1,0 +1,19 @@
+
+<div>
+  <input [(ngModel)]="pokemonName" placeholder="Ingresar Nombre del Pokemon" />
+  <button (click)="searchPokemon()">Buscar</button>
+</div>
+
+<div *ngIf="pokemonData">
+  <h2>{{ pokemonData.name | uppercase }}</h2>
+  <img [src]="pokemonData.sprites.front_default" alt="{{ pokemonData.name }}" />
+  <ul>
+    <li><strong>Altura del Bicho:</strong> {{ pokemonData.height }}</li>
+    <li><strong>Peso del Moustrito:</strong> {{ pokemonData.weight }}</li>
+    <li><strong>Nivel:</strong> {{ pokemonData.base_experience }}</li>
+  </ul>
+</div>
+
+<div *ngIf="!pokemonData && pokemonName">
+  <p>Bicho No Encontrado!</p>
+</div>
